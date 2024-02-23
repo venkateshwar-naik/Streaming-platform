@@ -1,0 +1,34 @@
+.movies{
+    width: 100%;
+    /* height: 90vh; */
+    padding: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.971);
+
+
+}
+.movie{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 20px
+
+}
+.movie img{
+    width: 20%   ;
+}
+.lap{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;padding: 40px;
+
+}
+.lap img{
+    width: 400px;
+}

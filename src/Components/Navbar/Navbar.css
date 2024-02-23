@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: black;
+    padding: 0 60px;
+    
+}
+.navbar img{
+    width: 130px;
+}
+button{
+    padding:4px 15px;
+    background-color: red;
+    font-size: 20px;
+}
+.navlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

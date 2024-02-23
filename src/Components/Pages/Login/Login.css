@@ -1,0 +1,40 @@
+
+
+.signup{
+    width: 400px;
+    height:auto;
+    background-color: rgba(0, 0, 0, 0.871);
+    color: white;
+    /* background: transparent; */
+    padding: 40px 50px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+}
+form input{
+    width: 70%;
+    padding: 5px 7px;
+    /* color: white; */
+}
+.opt{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.btn{
+    width: 75%;
+    padding: 5px 7px;
+    background-color: rgb(239, 16, 16);
+}
+.new{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+}

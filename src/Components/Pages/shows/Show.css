@@ -1,0 +1,26 @@
+.show{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.show1{
+    width: 50%;
+    padding: 50px;
+}
+.show2{
+    width: 50%;
+    padding: 60px;
+}
+.show2 h1{
+    font-size: 50px;
+}
+.show2 p{
+    font-size: 30px;
+}
+.show1 img {
+    width: 100%;
+}

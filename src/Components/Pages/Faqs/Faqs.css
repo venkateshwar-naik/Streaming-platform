@@ -1,0 +1,88 @@
+.faqs{
+    width: 100%;
+    padding: 40px;
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    margin-top: 4px;
+}
+.heading{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+.faqs .items{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+
+
+
+}
+.wrapper{
+    width: 70%;
+}
+.faqs .items .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    padding: 10px 40px;
+    border: 2px solid white;
+    /* padding: 0 70px; */
+}
+.faqs .items .question{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.faqs .items .question img{
+    width: 30px;
+transition: all 0.4s cubic-bezier(0,1,0,1);
+ 
+}
+.answers{
+    width: 100%;
+max-height: 0;
+overflow: hidden;
+transition: all  ease-in 0.7s cubic-bezier(0,1,0,1);
+padding: 0 40px;
+
+}
+.answers.show{
+
+    height: auto;
+    max-height:99999px;
+transition: all ease-out  0.7s cubic-bezier(1,0,1,0);
+
+}
+
+.reverse{
+    transform: rotate(180deg);
+transition: all 0.4s cubic-bezier(0,1,0,1);
+
+}
+.strt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+
+}
+.low h1{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.low{
+    padding: 40px 0px;
+}
